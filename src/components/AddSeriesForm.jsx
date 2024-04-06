@@ -29,6 +29,7 @@ const SeriesForm = () => {
           type="text"
           id="ep_num"
           name="ep_num"
+          required
         />
       </div>
       <div className="flex flex-col gap-2 w-2/3 mt-3 items-center">
