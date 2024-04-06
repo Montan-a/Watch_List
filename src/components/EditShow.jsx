@@ -22,7 +22,7 @@ const EditShow = ({ show }) => {
     <div className="mr-8">
       <button
         onClick={() => setShowModal(true)}
-        className="px-4 py-2 rounded-md hover:bg-gray-400 text-center"
+        className="px-4 py-2 rounded-md bg-green-500 hover:bg-green-600 text-center"
       >
         Edit
       </button>
