@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This watch list allow users to keep track of shows and/or movies they are currently watching or want to watch
 
 ## Getting Started
 
-First, run the development server:
+1. Enter a vaild email in the provided field. Then click on the magic link to authenticate your email.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Check your inbox for a email from supabase. The email should contain a link that will redirect you to your account.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Inside the Form
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The are five fields in this form:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> Title
+> Genre
+> Number of episodes
+> Publisher
+> Producer
+> Description
 
-## Learn More
+All fields must be filled out to submit the form.
 
-To learn more about Next.js, take a look at the following resources:
+Once the form is submitted the name of the show and the publisher will be displayed below the add show form.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+When a show/movie is added to the list it comes with two buttons: Delete and Edit.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Delete a show
 
-## Deploy on Vercel
+When the delete button is clicked the show/movie it is removed from the page view and any information associated with the id number of the entry is deleted.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Editing a show
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+When editing a show a modal will popup in the middle of the screen.
+You'll be able to change the details of the entry as needed, once you complete the alterations and press the update button.
+The popup will close and the database entry for the show/movie will reflect those changes.
