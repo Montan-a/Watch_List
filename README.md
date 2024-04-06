@@ -10,12 +10,12 @@ This watch list allow users to keep track of shows and/or movies they are curren
 
 The are five fields in this form:
 
-> Title
-> Genre
-> Number of episodes
-> Publisher
-> Producer
-> Description
+> Title,
+> Genre,
+> Number of episodes,
+> Publisher,
+> Producer,
+> Description,
 
 All fields must be filled out to submit the form.
 
