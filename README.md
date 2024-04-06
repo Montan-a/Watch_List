@@ -15,7 +15,7 @@ The are five fields in this form:
 > Number of episodes,
 > Publisher,
 > Producer,
-> Description,
+> Description
 
 All fields must be filled out to submit the form.
 
